@@ -14,10 +14,8 @@
 
 ## -预览  
 <center class="half">
-    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f11a4d4e29cb4972badbc6df826fad7a~tplv-k3u1fbpfcp-zoom-1.image" width="300"/>
-    <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd1a2b0cd5c34d71a02ae92675816a18~tplv-k3u1fbpfcp-zoom-1.image" width="300"/>
-</center>
-<center class="half">
-    <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89013d94be7b410b8b97cb887cb75f4b~tplv-k3u1fbpfcp-zoom-1.image" width="300"/>
-    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3e0e3889d1c74c44b29115eaf0086a76~tplv-k3u1fbpfcp-zoom-1.image" width="300"/>
+    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/f11a4d4e29cb4972badbc6df826fad7a~tplv-k3u1fbpfcp-zoom-1.image" />
+    <img src="https://p9-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/bd1a2b0cd5c34d71a02ae92675816a18~tplv-k3u1fbpfcp-zoom-1.image" />
+    <img src="https://p6-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/89013d94be7b410b8b97cb887cb75f4b~tplv-k3u1fbpfcp-zoom-1.image" />
+    <img src="https://p3-juejin.byteimg.com/tos-cn-i-k3u1fbpfcp/3e0e3889d1c74c44b29115eaf0086a76~tplv-k3u1fbpfcp-zoom-1.image" />
 </center>
