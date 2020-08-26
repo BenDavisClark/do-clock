@@ -1,0 +1,17 @@
+<view class="page">
+  <view class="page__bd">
+        <view class="weui-btn-area">
+            <picker mode="date" value="{{date}}"  fields="month" bindchange="bindDateChange">
+                <button class="weui-btn" type="default">日期选择</button>
+            </picker>
+        </view>
+    </view>
+
+    <view class="nowDate">{{ date }}</view> 
+    <view class="record_list">
+        <block wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="_id">
+            <view class="record_list_addr"><text>打卡地点：{{ item.addr }}</text></view>
+            <view class="record_list_time"><text>打卡时间：{{ item.createTime }}</text></view>
+        </block>
+      </view>
+</view>

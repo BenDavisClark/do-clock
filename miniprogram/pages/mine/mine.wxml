@@ -1,0 +1,25 @@
+<!--mine.wxml-->
+<view class="mine">
+    <view class="mine-head">
+    <view class="userNickName">
+      <open-data class="userAvatarUrl"  type="userAvatarUrl"></open-data>
+     </view>
+     <view class="welcome mine-head-name">
+       <text>欢迎您，</text>
+        <open-data  type="userNickName"></open-data>
+     </view>
+  </view>
+
+  <view class="myRecord">
+    | 打卡记录
+  </view>
+
+  <view class="record_list">
+    <block wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="_id">
+        <view class="record_list_addr"><text>打卡地点：{{ item.addr }}</text></view>
+        <view class="record_list_time"><text>打卡时间：{{ item.createTime }}</text></view>
+    </block>
+  </view>
+</view>
+
+

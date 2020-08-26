@@ -1,0 +1,43 @@
+<view class="punch">
+
+  <button
+    type="primary"
+    class="weui-btn getUserInfo"
+    wx:if="{{canIUse}}"
+    open-type="getUserInfo"
+  >
+  授权登录
+</button>
+
+  <view class="punch-head">
+     <open-data class="punch-head-left" type="userNickName"></open-data>
+     <text class="punch-head-right">{{ nowData }}</text>
+  </view>
+
+  <view class="punch-addr">
+     <text>当前位置：{{ addr }}</text>
+  </view>
+
+  <button class="weui-btn punch-btn" hover-class="punch-btn-hover" type="primary" bindtap="handleAdd">
+    考勤打卡
+  </button>
+
+
+  <view class="record_list">
+   <block wx:for="{{list}}" wx:for-index="index" wx:for-item="item" wx:key="_id">
+        <text class="record_index">第{{ index+1 }}次：</text><br/>
+        <view class="record_list_addr"><text>打卡地点：{{ item.addr }}</text></view>
+        <view class="record_list_time"><text>打卡时间：{{ item.createTime }}</text></view>
+    </block>
+  </view>
+
+  <!-- <button size="mini" type="default" bindtap="getList">获取记录</button>
+  <button size="mini" type="default" bindtap="addList">新增记录</button>
+  <button size="mini" type="default" bindtap="updateList">修改记录</button>
+  <button size="mini" type="default" bindtap="delList">删除记录</button> -->
+
+
+
+</view>
+<!-- 引入wxs脚本 -->
+<wxs src="../../utils/tools.wxs" module="tools" />

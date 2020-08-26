@@ -1,0 +1,17 @@
+page{
+    background-color: #FFFFFF;
+}
+picker{margin-bottom:16px;}
+.record_list{
+  margin-top:10px;
+  font-size:14px;
+  height: 30px;
+  line-height: 30px;
+  padding:16px;
+}
+.record_list_time{
+  margin-bottom:10px;
+}
+.nowDate{
+  padding:0 16px;
+}

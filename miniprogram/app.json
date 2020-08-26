@@ -1,0 +1,59 @@
+{
+  "pages": [
+    "pages/punch/punch",
+    "pages/mine/mine",
+    "pages/picker/picker",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color":"#333",
+    "selectedColor": "#409eff",
+    "list": [
+      {
+        "pagePath": "pages/punch/punch",
+        "iconPath": "images/ding.png",
+        "selectedIconPath": "images/dingSelect.png",
+        "text": "打卡"
+      },
+      {
+        "pagePath": "pages/picker/picker",
+        "iconPath": "images/query.png",
+        "selectedIconPath": "images/select_query.png",
+        "text": "搜索"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "iconPath": "images/mine.png",
+        "selectedIconPath": "images/selectMine.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "sitemapLocation": "sitemap.json"
+}

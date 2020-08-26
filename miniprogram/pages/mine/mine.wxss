@@ -1,0 +1,49 @@
+.mine{
+  padding:24px;
+}
+
+.mine-head{
+  width:100%;
+  text-align: center;
+}
+.userNickName{
+  width:65px;
+  height:65px;
+  border-radius: 10px;
+  padding-left:calc(50% - 24px);
+  margin-bottom:10px;
+}
+.mine-head-name{
+  font-size:14px;
+}
+
+.userAvatarUrl{
+  width:65px;
+  height:65px;
+  float: left;
+}
+
+.record_list{
+  margin-top:10px;
+  font-size:14px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.welcome{
+  text-align: center;
+  width:100%;
+}
+
+.record_list_time{
+  margin-bottom:10px;
+}
+.record_index{
+  color:#409eff;
+  font-weight: 600px;
+}
+
+.myRecord{
+  color:#409eff;
+  margin-top:10px;
+}
